@@ -47,7 +47,7 @@ def get_position(matrix, row, col, command, steps):
             presents_and_mark_position(matrix, row, col)
     if command == "down":
         for step in range(steps):
-            if any([x != "." and x != "x" for row in matrix for x in row]):
+            if any([x != "." and x != "x" for row_ in matrix for x in row_]):
                 if row + 1 > rows - 1:
                     row = 0
                 else:
@@ -55,7 +55,7 @@ def get_position(matrix, row, col, command, steps):
             presents_and_mark_position(matrix, row, col)
     if command == "up":
         for step in range(steps):
-            if any([x != "." and x != "x" for row in matrix for x in row]):
+            if any([x != "." and x != "x" for row_ in matrix for x in row_]):
                 if row - 1 < 0:
                     row = rows - 1
                 else:
