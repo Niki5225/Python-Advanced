@@ -1,0 +1,15 @@
+directory_traversal.py
+- - - directory_traversal.py
+result.txt
+- - - result.txt
+even_lines.py
+- - - even_lines.py
+text.txt
+- - - text.txt
+- - - text.txt
+file_manipulator.py
+- - - file_manipulator.py
+line_numbers.py
+- - - line_numbers.py
+output.text
+- - - output.text
